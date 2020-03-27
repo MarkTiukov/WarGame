@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7def7f0a-e01a-4804-b62c-5062e6458d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/fields/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilderTwoPlayers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/AnimalFraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/FractionsId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/PeopleFraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fractions/FractionsId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/FractionsId.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +98,7 @@
       <workItem from="1585303147478" duration="4068000" />
       <workItem from="1585308726932" duration="34000" />
       <workItem from="1585308798981" duration="298000" />
-      <workItem from="1585313336837" duration="10692000" />
+      <workItem from="1585313336837" duration="10820000" />
     </task>
     <servers />
   </component>
@@ -136,6 +126,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="662" y="426" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1792.1120@0.0.1792.1120" timestamp="1585337697905" />
+    <state x="479" y="162" key="CommitChangelistDialog2" timestamp="1585346559272">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="479" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1585346559272" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1585309097354">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
