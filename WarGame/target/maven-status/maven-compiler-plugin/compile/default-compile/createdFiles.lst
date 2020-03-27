@@ -1,0 +1,12 @@
+com/company/factories/PeopleFactory4Units.class
+com/company/Main.class
+com/company/units/UnitsTypes.class
+com/company/units/MonkeyUnit.class
+com/company/units/SoldierUnit.class
+com/company/units/WolfUnit.class
+com/company/units/WarriorUnit.class
+com/company/factories/AbsFactory4Units.class
+com/company/units/RiflemanUnit.class
+com/company/units/Unit.class
+com/company/units/ArcherUnit.class
+com/company/factories/AnimalFactory4Units.class
