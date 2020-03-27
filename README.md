@@ -3,24 +3,24 @@
 
 Чтобы установить maven на macOS:
 
-   brew install maven 
+$ brew install maven 
 
 
 СБОРКА ПРОЕКТА:
 
 из папки WarGame
 
-   mvn clean
+$  mvn clean
 
-   mvn compile
+$  mvn compile
 
 
 ЗАПУСК ПРОЕКТА:
 
 из папки WarGame
   
-   cd target/classes/
+$  cd target/classes/
   
-   java com.company.Main
+$  java com.company.Main
 
  
