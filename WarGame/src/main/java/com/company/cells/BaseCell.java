@@ -1,6 +1,6 @@
 package com.company.cells;
 
-public class BaseCell extends Cell {
+public abstract class BaseCell extends Cell {
 
     public BaseCell() {
         super();
@@ -10,8 +10,4 @@ public class BaseCell extends Cell {
         super(X, Y);
     }
 
-    @Override
-    public void draw() {
-        System.out.println("Base at (" + this.coordinateX + "; " + this.coordinateY + ")");
-    }
 }
