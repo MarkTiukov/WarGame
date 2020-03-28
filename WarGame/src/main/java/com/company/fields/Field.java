@@ -1,6 +1,6 @@
 package com.company.fields;
 
-import com.company.Cell;
+import com.company.cells.Cell;
 
 public class Field {
     private int size; // number of cells in width=height
