@@ -15,5 +15,10 @@ public class HumanBaseCell extends BaseCell {
         System.out.println("Human base at (" + this.coordinateX + "; " + this.coordinateY + ")");
     }
 
+    @Override
+    public void drawInConsole() {
+        System.out.print("HB" + "   ");
+    }
+
 
 }

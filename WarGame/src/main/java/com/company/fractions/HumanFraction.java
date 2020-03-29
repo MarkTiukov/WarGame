@@ -1,18 +1,18 @@
 package com.company.fractions;
 
-import com.company.cells.AnimalBaseCell;
 import com.company.cells.BaseCell;
 import com.company.cells.HumanBaseCell;
 
-public class AnimalFraction extends Fraction {
+public class HumanFraction extends Fraction {
 
-    public AnimalFraction() {
+    public HumanFraction() {
 
     }
 
     @Override
     public BaseCell createBase(int x, int y) {
-        BaseCell base = new AnimalBaseCell(x, y);
+        BaseCell base = new HumanBaseCell(x, y);
         return base;
     }
+
 }

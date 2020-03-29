@@ -14,6 +14,24 @@ public abstract class Cell {
         this.coordinateY = Y;
     }
 
+    public int getX() {
+        return coordinateX;
+    }
+
+    public void setX(int coordinateX) {
+        this.coordinateX = coordinateX;
+    }
+
+    public int getY() {
+        return coordinateY;
+    }
+
+    public void setY(int coordinateY) {
+        this.coordinateY = coordinateY;
+    }
+
     public abstract void draw();
+    public abstract void drawInConsole();
+
 
 }

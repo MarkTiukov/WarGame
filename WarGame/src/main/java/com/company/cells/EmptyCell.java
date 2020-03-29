@@ -14,4 +14,9 @@ public class EmptyCell extends Cell {
     public void draw() {
         System.out.println("Empty cell at (" + this.coordinateX + "; " + this.coordinateY + ")");
     }
+
+    @Override
+    public void drawInConsole() {
+        System.out.print("E" + "    ");
+    }
 }
