@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7def7f0a-e01a-4804-b62c-5062e6458d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilderTwoPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilderTwoPlayers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fractions/FractionsId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/FractionsId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
@@ -103,7 +103,7 @@
       <workItem from="1585308798981" duration="298000" />
       <workItem from="1585313336837" duration="11084000" />
       <workItem from="1585388757430" duration="14049000" />
-      <workItem from="1585472944561" duration="6990000" />
+      <workItem from="1585472944561" duration="12735000" />
     </task>
     <task id="LOCAL-00001" summary="Second upload">
       <created>1585346643011</created>
@@ -167,22 +167,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="479" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1585346725678" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1585481282039">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1585520818036">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585481282039" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1585481282038">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818036" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1585520818035">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585481282038" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1585481282036">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818035" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1585520818035">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585481282036" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1585481282038">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818035" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1585520818036">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585481282038" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818036" />
     <state x="384" y="141" key="SettingsEditor" timestamp="1585316700517">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

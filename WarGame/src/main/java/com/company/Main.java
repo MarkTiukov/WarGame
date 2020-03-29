@@ -10,14 +10,14 @@ import com.company.fractions.HumanFraction;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Set;
-import java.util.concurrent.ConcurrentMap;
 
 public class Main {
 
     public static Fraction playableFractions[];
     public static Scanner scanner = new Scanner(System.in);
     public static ArrayList<String> availableFractons;
+    public static Field field;
+
 
     public static void main(String[] args) {
         helloWords();
@@ -62,17 +62,59 @@ public class Main {
     public static void play() {
         availableFractons = new ArrayList<String>();
         FractionsId.addAll(availableFractons);
+        chooseNumber();
+        chooseFractions();
+        FieldBuilder fieldBuilder;
+        switch (playableFractions.length) {
+            case 2:
+                fieldBuilder = new FieldBuilderTwoPlayers(chooseSize(), playableFractions);
+                break;
+            default:
+                System.out.println("<ERROR WITH NUMBER OF PLAYERS>");
+                return;
+        }
+        field = fieldBuilder.getField();
+        field.drawInConsole();
     }
 
     public static void chooseNumber() {
-        System.out.println("<PLease, choose number of players: " + "2" + ">" );
+        System.out.println("<PLease, choose number of players: " + "2" + ">");
         playableFractions = new Fraction[scanner.nextInt()];
+        scanner.nextLine();
     }
 
     public static void chooseFractions() {
-        System.out.print("<Please, choose your fraction from available>");
-        System.out.println("<Available fractions:>");
+        System.out.println("<Please, choose your fraction from available>");
+        System.out.print("<Available fractions:");
+        for (String s : availableFractons) {
+            System.out.print(" " + s.toLowerCase());
+        }
+        System.out.println(">");
+        for (int i = 0; i < playableFractions.length; ++i) {
+            String name = scanner.nextLine();
+            availableFractons.remove(name.toUpperCase());
+            if (name.equals(FractionsId.ANIMALS_ID.toLowerCase())) {
+                playableFractions[i] = new AnimalFraction();
+            }
+            if (name.equals(FractionsId.PEOPLE_ID.toLowerCase())) {
+                playableFractions[i] = new HumanFraction();
+            }
+            System.out.print("<Available fractions:");
+            for (String s : availableFractons) {
+                System.out.print(" " + s.toLowerCase());
+            }
+            System.out.println(">");
+        }
+    }
 
+    public static int chooseSize() {
+        System.out.println("<Choose map size (minimum 12)>");
+        int result = scanner.nextInt();
+        while (result < 12) {
+            System.out.println("<Size should be more than 12, choose new>");
+            result = scanner.nextInt();
+        }
+        return result;
     }
 
 }
