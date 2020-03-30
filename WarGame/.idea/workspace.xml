@@ -2,10 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7def7f0a-e01a-4804-b62c-5062e6458d18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Explanations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalFarmCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanFarmCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/Commands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/AnimalBaseCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/AnimalFarmCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/BaseCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/EmptyCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/FarmCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/HumanBaseCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/cells/HumanFarmCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/factories/AbsFactory4Units.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/factories/AnimalFactory4Units.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/factories/PeopleFactory4Units.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/fields/Field.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/fields/FieldBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/fields/FieldBuilderTwoPlayers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/fractions/AnimalFraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/fractions/Fraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/fractions/FractionsId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/fractions/HumanFraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/ArcherUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/MonkeyUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/RiflemanUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/SoldierUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/Unit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/UnitsTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/WarriorUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/units/WolfUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UML with dependecies.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UML with dependecies.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UML with inside.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UML with inside.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalBaseCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalBaseCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/BaseCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/BaseCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/FarmCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/FarmCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanBaseCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanBaseCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factories/AnimalFactory4Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/factories/AnimalFactory4Units.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factories/PeopleFactory4Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/factories/PeopleFactory4Units.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilderTwoPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilderTwoPlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fractions/FractionsId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/FractionsId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fractions/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fractions/HumanFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fractions/HumanFraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +142,8 @@
       <workItem from="1585308798981" duration="298000" />
       <workItem from="1585313336837" duration="11084000" />
       <workItem from="1585388757430" duration="14049000" />
-      <workItem from="1585472944561" duration="12735000" />
+      <workItem from="1585472944561" duration="13536000" />
+      <workItem from="1585601920967" duration="6859000" />
     </task>
     <task id="LOCAL-00001" summary="Second upload">
       <created>1585346643011</created>
@@ -147,10 +187,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585307176897" />
-    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1585479621562">
+    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1585605680749">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1585479621562" />
+    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1585605680749" />
     <state x="510" y="256" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585303191075">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -167,22 +207,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="479" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1585346725678" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1585520818036">
+    <state width="1750" height="151" key="GridCell.Tab.0.bottom" timestamp="1585608708583">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818036" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1585520818035">
+    <state width="1750" height="151" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585608708583" />
+    <state width="1750" height="151" key="GridCell.Tab.0.center" timestamp="1585608708582">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818035" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1585520818035">
+    <state width="1750" height="151" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585608708582" />
+    <state width="1750" height="151" key="GridCell.Tab.0.left" timestamp="1585608708581">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818035" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1585520818036">
+    <state width="1750" height="151" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585608708581" />
+    <state width="1750" height="151" key="GridCell.Tab.0.right" timestamp="1585608708583">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585520818036" />
+    <state width="1750" height="151" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585608708583" />
     <state x="384" y="141" key="SettingsEditor" timestamp="1585316700517">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -195,13 +235,13 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="679" y="345" key="chooseDestDirectoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585305799456" />
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1585472946764">
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1585601920767">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585472946764" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1585479627411">
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585601920767" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1585603313255">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1585479627411" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1585603313255" />
   </component>
 </project>

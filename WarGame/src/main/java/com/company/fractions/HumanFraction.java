@@ -1,7 +1,10 @@
 package com.company.fractions;
 
 import com.company.cells.BaseCell;
+import com.company.cells.FarmCell;
 import com.company.cells.HumanBaseCell;
+
+import java.util.ArrayList;
 
 public class HumanFraction extends Fraction {
 

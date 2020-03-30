@@ -11,6 +11,12 @@ public class HumanBaseCell extends BaseCell {
     }
 
     @Override
+    public FarmCell createFarm(int x, int y) {
+        FarmCell farm = new HumanFarmCell(x, y);
+        return farm;
+    }
+
+    @Override
     public void draw() {
         System.out.println("Human base at (" + this.coordinateX + "; " + this.coordinateY + ")");
     }

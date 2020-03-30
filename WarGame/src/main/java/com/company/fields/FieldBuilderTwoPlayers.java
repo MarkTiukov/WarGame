@@ -29,8 +29,6 @@ public class FieldBuilderTwoPlayers implements FieldBuilder {
     public void generateFractions() {
         Random random = new Random();
 
-
-
         int x1 = 1 + random.nextInt(this.field.getSize() / 3);
         int y1 = 1 + random.nextInt(this.field.getSize() / 3);
 

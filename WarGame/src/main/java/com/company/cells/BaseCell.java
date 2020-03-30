@@ -10,4 +10,6 @@ public abstract class BaseCell extends Cell {
         super(X, Y);
     }
 
+    public abstract FarmCell createFarm(int x, int y);
+
 }
