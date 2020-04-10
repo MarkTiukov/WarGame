@@ -1,16 +1,14 @@
 package com.company.cells;
 
-import com.company.factories.PeopleFactory4Units;
+import com.company.fields.Field;
 
 public class HumanFarmCell extends FarmCell {
 
     public HumanFarmCell() {
         super();
-        this.factory = new PeopleFactory4Units();
     }
 
     public HumanFarmCell(int X, int Y) {
-        this.factory = new PeopleFactory4Units(X, Y);
     }
 
     @Override
@@ -20,6 +18,6 @@ public class HumanFarmCell extends FarmCell {
 
     @Override
     public void drawInConsole() {
-        System.out.print("HF" + "   ");
+        System.out.print(String.format("%-" + Field.widthForConsole + "s", "HF"));
     }
 }

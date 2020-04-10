@@ -5,8 +5,10 @@ public abstract class WarriorUnit implements Unit {
     protected int Y = 0;
     protected String typeId = UnitsTypes.WARRIOR_ID;
     protected int id = 0;
+    protected int health = 100;
 
-    public WarriorUnit() {}
+    public WarriorUnit() {
+    }
 
     public void printId() {
         System.out.println(this.typeId);

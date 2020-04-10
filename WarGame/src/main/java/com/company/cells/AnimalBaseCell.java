@@ -1,5 +1,7 @@
 package com.company.cells;
 
+import com.company.fields.Field;
+
 public class AnimalBaseCell extends BaseCell {
 
     public AnimalBaseCell() {
@@ -23,6 +25,6 @@ public class AnimalBaseCell extends BaseCell {
 
     @Override
     public void drawInConsole() {
-        System.out.print("AB" + "   ");
+        System.out.print(String.format("%-" + Field.widthForConsole + "s", "AB"));
     }
 }

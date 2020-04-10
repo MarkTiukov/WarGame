@@ -13,6 +13,8 @@ import java.util.Scanner;
 
 public class Main {
 
+    // JUnit and Mockito for testing 
+
     public static Fraction playableFractions[];
     public static Scanner scanner = new Scanner(System.in);
     public static ArrayList<String> availableFractons;

@@ -1,6 +1,11 @@
 package com.company.cells;
 
+import com.company.fields.Field;
+import com.company.loots.Loot;
+
 public class EmptyCell extends Cell {
+
+    private Loot loot = null;
 
     public EmptyCell() {
         super();
@@ -17,6 +22,15 @@ public class EmptyCell extends Cell {
 
     @Override
     public void drawInConsole() {
-        System.out.print("E" + "    ");
+        try {
+            System.out.print(String.format("%-" + Field.widthForConsole + "s", "E" + this.loot.getValue()));
+        } catch (NullPointerException e) {
+            System.out.print(String.format("%-" + Field.widthForConsole + "s", "E"));
+
+        }
+    }
+
+    public void setLoot(Loot loot) {
+        this.loot = loot;
     }
 }
