@@ -15,7 +15,7 @@ public class Main {
 
     // JUnit and Mockito for testing 
 
-    public static Fraction playableFractions[];
+    public static Fraction[] playableFractions;
     public static Scanner scanner = new Scanner(System.in);
     public static ArrayList<String> availableFractons;
     public static Field field;
@@ -36,18 +36,6 @@ public class Main {
                 play();
             }
         }
-        /*
-        playableFractions = new Fraction[2];
-        playableFractions[0] = new HumanFraction();
-        playableFractions[1] = new AnimalFraction();
-        String[] ids = new String[2];
-        ids[0] = FractionsId.PEOPLE_ID;
-        ids[1] = FractionsId.ANIMALS_ID;
-        FieldBuilder fieldBuilder = new FieldBuilderTwoPlayers(12, ids);
-        fieldBuilder.generateFractions();
-        Field field = fieldBuilder.getField();
-        field.drawInConsole();
-         */
     }
 
     public static void helloWords() {
@@ -62,18 +50,16 @@ public class Main {
     }
 
     public static void play() {
-        availableFractons = new ArrayList<String>();
+        availableFractons = new ArrayList<>();
         FractionsId.addAll(availableFractons);
         chooseNumber();
         chooseFractions();
         FieldBuilder fieldBuilder;
-        switch (playableFractions.length) {
-            case 2:
-                fieldBuilder = new FieldBuilderTwoPlayers(chooseSize(), playableFractions);
-                break;
-            default:
-                System.out.println("<ERROR WITH NUMBER OF PLAYERS>");
-                return;
+        if (playableFractions.length == 2) {
+            fieldBuilder = new FieldBuilderTwoPlayers(chooseSize(), playableFractions);
+        } else {
+            System.out.println("<ERROR WITH NUMBER OF PLAYERS>");
+            return;
         }
         field = fieldBuilder.getField();
         field.drawInConsole();

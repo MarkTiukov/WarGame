@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7def7f0a-e01a-4804-b62c-5062e6458d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalBarrackCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/BarrackCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanBarrackCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/loots/DoubleMoneyLoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/loots/Loot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/loots/MoneyLoot.java" afterDir="false" />
+    <list default="true" id="7def7f0a-e01a-4804-b62c-5062e6458d18" name="Default Changelist" comment="Added gitignore file and deleted comments from main">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalBaseCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalBaseCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalFarmCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/AnimalFarmCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/EmptyCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/EmptyCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/FarmCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/FarmCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanBaseCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanBaseCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanFarmCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/cells/HumanFarmCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fields/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fields/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilderTwoPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/fields/FieldBuilderTwoPlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/units/ArcherUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/units/ArcherUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/units/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/units/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/units/WarriorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/units/WarriorUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/cells/AnimalBaseCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/cells/AnimalBaseCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/cells/AnimalFarmCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/cells/AnimalFarmCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/cells/EmptyCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/cells/EmptyCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/cells/FarmCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/cells/FarmCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/cells/HumanBaseCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/cells/HumanBaseCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/cells/HumanFarmCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/cells/HumanFarmCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/fields/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/fields/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/fields/FieldBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/fields/FieldBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/fields/FieldBuilderTwoPlayers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/fields/FieldBuilderTwoPlayers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/units/ArcherUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/units/ArcherUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/units/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/units/Unit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/units/WarriorUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/units/WarriorUnit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +109,8 @@
       <workItem from="1585650235899" duration="291000" />
       <workItem from="1585908275014" duration="81000" />
       <workItem from="1586346719009" duration="26000" />
-      <workItem from="1586524785643" duration="14015000" />
+      <workItem from="1586524785643" duration="14893000" />
+      <workItem from="1586622337526" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="Second upload">
       <created>1585346643011</created>
@@ -169,7 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second upload" />
+    <MESSAGE value="Added gitignore file and deleted comments from main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gitignore file and deleted comments from main" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -206,26 +179,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="593" y="421" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1586536033658" />
-    <state x="479" y="162" key="CommitChangelistDialog2" timestamp="1585346725678">
+    <state x="651" y="60" key="CommitChangelistDialog2" timestamp="1586624785680">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="479" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1585346725678" />
-    <state width="1750" height="241" key="GridCell.Tab.0.bottom" timestamp="1586560663244">
+    <state x="651" y="60" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1586624785680" />
+    <state width="1750" height="311" key="GridCell.Tab.0.bottom" timestamp="1586561578230">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="241" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586560663244" />
-    <state width="1750" height="241" key="GridCell.Tab.0.center" timestamp="1586560663242">
+    <state width="1750" height="311" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586561578230" />
+    <state width="1750" height="311" key="GridCell.Tab.0.center" timestamp="1586561578229">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="241" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586560663242" />
-    <state width="1750" height="241" key="GridCell.Tab.0.left" timestamp="1586560663242">
+    <state width="1750" height="311" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586561578229" />
+    <state width="1750" height="311" key="GridCell.Tab.0.left" timestamp="1586561578229">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="241" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586560663242" />
-    <state width="1750" height="241" key="GridCell.Tab.0.right" timestamp="1586560663243">
+    <state width="1750" height="311" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586561578229" />
+    <state width="1750" height="311" key="GridCell.Tab.0.right" timestamp="1586561578230">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="241" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586560663243" />
+    <state width="1750" height="311" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586561578230" />
     <state x="384" y="141" key="SettingsEditor" timestamp="1585650610598">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -238,10 +211,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="679" y="345" key="chooseDestDirectoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585305799456" />
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586346720148">
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586622345435">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586346720148" />
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586622345435" />
     <state x="573" y="383" key="com.intellij.ide.util.TipDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1585650271690" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1585603313255">
       <screen x="0" y="0" width="1792" height="1120" />
