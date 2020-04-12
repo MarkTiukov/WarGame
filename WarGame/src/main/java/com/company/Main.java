@@ -15,6 +15,7 @@ public class Main {
 
     // JUnit and Mockito for testing 
 
+    public static final int MIN_FIELD_SIZE = 12;
     public static Fraction[] playableFractions;
     public static Scanner scanner = new Scanner(System.in);
     public static ArrayList<String> availableFractons;
@@ -96,10 +97,10 @@ public class Main {
     }
 
     public static int chooseSize() {
-        System.out.println("<Choose map size (minimum 12)>");
+        System.out.println(String.format("<Choose map size (minimum %s)>", MIN_FIELD_SIZE));
         int result = scanner.nextInt();
-        while (result < 12) {
-            System.out.println("<Size should be more than 12, choose new>");
+        while (result < MIN_FIELD_SIZE) {
+            System.out.println(String.format("<Size should be more than %s, choose new>", MIN_FIELD_SIZE));
             result = scanner.nextInt();
         }
         return result;
