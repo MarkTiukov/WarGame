@@ -22,6 +22,10 @@ public class Main {
     public static Field field;
 
 
+
+
+
+
     public static void main(String[] args) {
         helloWords();
         while (true) {
