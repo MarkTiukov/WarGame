@@ -21,11 +21,6 @@ public class Main {
     public static ArrayList<String> availableFractons;
     public static Field field;
 
-
-
-
-
-
     public static void main(String[] args) {
         helloWords();
         while (true) {
