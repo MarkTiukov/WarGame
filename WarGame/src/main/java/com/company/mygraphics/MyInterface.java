@@ -10,7 +10,7 @@ import javax.swing.*;
 public class MyInterface implements Interfacable {
     private static final int windowSize = 1000;
 
-    private JFrame window = new JFrame("War Game");
+    private final JFrame window = new JFrame("War Game");
 
     private MyPanel[][] map;
 
@@ -39,7 +39,7 @@ public class MyInterface implements Interfacable {
                         if (field.map[i][j] instanceof AnimalBaseCell) {
                             this.map[i][j] = new MyPanel(Pictures.AnimalBase);
                         } else {
-                            System.out.println(i + " " + j);
+                            System.out.println("<ERROR> undefiened cell");
                         }
                     }
                 } else
