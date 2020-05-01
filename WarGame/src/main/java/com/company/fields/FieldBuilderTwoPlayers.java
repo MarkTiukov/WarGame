@@ -78,4 +78,9 @@ public class FieldBuilderTwoPlayers implements FieldBuilder {
         generateLoot();
         return this.field;
     }
+
+    @Override
+    public int getSize() {
+        return this.field.getSize();
+    }
 }

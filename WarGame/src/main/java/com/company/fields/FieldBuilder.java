@@ -9,5 +9,6 @@ public interface FieldBuilder {
     void generateFractions(); // generates bases for each fraction depending on the number of players
 
     Field getField();
+    int getSize();
 
 }

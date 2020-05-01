@@ -7,6 +7,7 @@ import com.company.fractions.AnimalFraction;
 import com.company.fractions.Fraction;
 import com.company.fractions.FractionsId;
 import com.company.fractions.HumanFraction;
+import com.company.mygraphics.MyInterface;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -23,6 +24,7 @@ public class Main {
 
     public static void main(String[] args) {
         helloWords();
+        Images.importPictures();
         while (true) {
             String command = scanner.nextLine();
             if (command.equals(Commands.TUTORIAL)) {
@@ -55,12 +57,15 @@ public class Main {
         chooseNumber();
         chooseFractions();
         FieldBuilder fieldBuilder;
+        MyInterface myInterface = new MyInterface();
         if (playableFractions.length == 2) {
             fieldBuilder = new FieldBuilderTwoPlayers(chooseSize(), playableFractions);
         } else {
             System.out.println("<ERROR WITH NUMBER OF PLAYERS>");
             return;
         }
+        myInterface.drawInitialMap(fieldBuilder.getSize());
+        myInterface.showWindow();
         field = fieldBuilder.getField();
         field.drawInConsole();
     }
