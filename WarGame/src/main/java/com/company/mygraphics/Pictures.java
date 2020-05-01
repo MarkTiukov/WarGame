@@ -5,7 +5,9 @@ import java.util.Random;
 public enum Pictures {
     EMPTY1,
     EMPTY2,
-    EMPTY3;
+    EMPTY3,
+    HumanBase,
+    AnimalBase;
 
     public static Pictures getRandomEmpty() {
         Random random = new Random();

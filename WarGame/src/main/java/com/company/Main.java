@@ -64,10 +64,10 @@ public class Main {
             return;
         }
         MyInterface myInterface = new MyInterface();
-        myInterface.drawInitialMap(fieldBuilder.getSize());
-        myInterface.showWindow();
         field = fieldBuilder.getField();
         field.drawInConsole();
+        myInterface.drawInitialMap(field);
+        myInterface.showWindow();
     }
 
     public static void chooseNumber() {
@@ -81,7 +81,10 @@ public class Main {
         for (int i = 0; i < playableFractions.length; ++i) {
             printAvailableFractions();
             String name = scanner.nextLine();
-            availableFractons.remove(name.toUpperCase());
+            if (!availableFractons.remove(name.toUpperCase())) {
+                --i;
+                System.out.println("<wrong fraction name>");
+            }
             if (name.equals(FractionsId.ANIMALS_ID.toLowerCase())) {
                 playableFractions[i] = new AnimalFraction();
             }

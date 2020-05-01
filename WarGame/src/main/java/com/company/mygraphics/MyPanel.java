@@ -29,6 +29,12 @@ public class MyPanel extends JPanel {
             case EMPTY3:
                 g.drawImage(Images.empty3, 0, 0, this.getWidth(), this.getHeight(), this);
                 break;
+            case HumanBase:
+                g.drawImage(Images.human_base, 0, 0, this.getWidth(), this.getHeight(), this);
+                break;
+            case AnimalBase:
+                g.drawImage(Images.animal_base, 0, 0, this.getWidth(), this.getHeight(), this);
+                break;
         }
     }
 }
