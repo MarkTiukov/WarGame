@@ -7,6 +7,7 @@ import com.company.fractions.AnimalFraction;
 import com.company.fractions.Fraction;
 import com.company.fractions.FractionsId;
 import com.company.fractions.HumanFraction;
+import com.company.mygraphics.MyInterface;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -21,13 +22,9 @@ public class Main {
     public static ArrayList<String> availableFractons;
     public static Field field;
 
-
-
-
-
-
     public static void main(String[] args) {
         helloWords();
+        Images.importPictures();
         while (true) {
             String command = scanner.nextLine();
             if (command.equals(Commands.TUTORIAL)) {
@@ -66,8 +63,11 @@ public class Main {
             System.out.println("<ERROR WITH NUMBER OF PLAYERS>");
             return;
         }
+        MyInterface myInterface = new MyInterface();
         field = fieldBuilder.getField();
         field.drawInConsole();
+        myInterface.drawInitialMap(field);
+        myInterface.showWindow();
     }
 
     public static void chooseNumber() {
@@ -78,26 +78,28 @@ public class Main {
 
     public static void chooseFractions() {
         System.out.println("<Please, choose your fraction from available>");
-        System.out.print("<Available fractions:");
-        for (String s : availableFractons) {
-            System.out.print(" " + s.toLowerCase());
-        }
-        System.out.println(">");
         for (int i = 0; i < playableFractions.length; ++i) {
+            printAvailableFractions();
             String name = scanner.nextLine();
-            availableFractons.remove(name.toUpperCase());
+            if (!availableFractons.remove(name.toUpperCase())) {
+                --i;
+                System.out.println("<wrong fraction name>");
+            }
             if (name.equals(FractionsId.ANIMALS_ID.toLowerCase())) {
                 playableFractions[i] = new AnimalFraction();
             }
             if (name.equals(FractionsId.PEOPLE_ID.toLowerCase())) {
                 playableFractions[i] = new HumanFraction();
             }
-            System.out.print("<Available fractions:");
-            for (String s : availableFractons) {
-                System.out.print(" " + s.toLowerCase());
-            }
-            System.out.println(">");
         }
+    }
+
+    public static void printAvailableFractions() {
+        System.out.print("<Available fractions:");
+        for (String s : availableFractons) {
+            System.out.print(" " + s.toLowerCase());
+        }
+        System.out.println(">");
     }
 
     public static int chooseSize() {
