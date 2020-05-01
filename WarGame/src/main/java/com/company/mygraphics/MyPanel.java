@@ -24,8 +24,10 @@ public class MyPanel extends JPanel {
                 g.drawImage(Images.empty1, 0, 0, this.getWidth(), this.getHeight(), this);
                 break;
             case EMPTY2:
+                g.drawImage(Images.empty2, 0, 0, this.getWidth(), this.getHeight(), this);
                 break;
             case EMPTY3:
+                g.drawImage(Images.empty3, 0, 0, this.getWidth(), this.getHeight(), this);
                 break;
         }
     }

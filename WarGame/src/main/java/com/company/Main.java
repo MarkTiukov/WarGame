@@ -57,13 +57,13 @@ public class Main {
         chooseNumber();
         chooseFractions();
         FieldBuilder fieldBuilder;
-        MyInterface myInterface = new MyInterface();
         if (playableFractions.length == 2) {
             fieldBuilder = new FieldBuilderTwoPlayers(chooseSize(), playableFractions);
         } else {
             System.out.println("<ERROR WITH NUMBER OF PLAYERS>");
             return;
         }
+        MyInterface myInterface = new MyInterface();
         myInterface.drawInitialMap(fieldBuilder.getSize());
         myInterface.showWindow();
         field = fieldBuilder.getField();
@@ -78,12 +78,8 @@ public class Main {
 
     public static void chooseFractions() {
         System.out.println("<Please, choose your fraction from available>");
-        System.out.print("<Available fractions:");
-        for (String s : availableFractons) {
-            System.out.print(" " + s.toLowerCase());
-        }
-        System.out.println(">");
         for (int i = 0; i < playableFractions.length; ++i) {
+            printAvailableFractions();
             String name = scanner.nextLine();
             availableFractons.remove(name.toUpperCase());
             if (name.equals(FractionsId.ANIMALS_ID.toLowerCase())) {
@@ -92,12 +88,15 @@ public class Main {
             if (name.equals(FractionsId.PEOPLE_ID.toLowerCase())) {
                 playableFractions[i] = new HumanFraction();
             }
-            System.out.print("<Available fractions:");
-            for (String s : availableFractons) {
-                System.out.print(" " + s.toLowerCase());
-            }
-            System.out.println(">");
         }
+    }
+
+    public static void printAvailableFractions() {
+        System.out.print("<Available fractions:");
+        for (String s : availableFractons) {
+            System.out.print(" " + s.toLowerCase());
+        }
+        System.out.println(">");
     }
 
     public static int chooseSize() {

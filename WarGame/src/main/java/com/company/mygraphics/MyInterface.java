@@ -30,26 +30,6 @@ public class MyInterface implements Interfacable {
         for (int i = 0; i < numberOfCells; ++i) {
             for (int j = 0; j < numberOfCells; ++j) {
                 this.map[i][j] = new MyPanel(Pictures.getRandomEmpty());
-                this.map[i][j].setBackground(Color.yellow);
-                //
-                switch (random.nextInt(5)) {
-                    case 0:
-                        this.map[i][j].setBackground(Color.yellow);
-                        break;
-                    case 1:
-                        this.map[i][j].setBackground(Color.blue);
-                        break;
-                    case 2:
-                        this.map[i][j].setBackground(Color.green);
-                        break;
-                    case 3:
-                        this.map[i][j].setBackground(Color.black);
-                        break;
-                    case 4:
-                        this.map[i][j].setBackground(Color.cyan);
-                        break;
-                }
-                //
                 this.map[i][j].setBounds(i * cellSize, j * cellSize, cellSize, cellSize);
                 this.map[i][j].setName(i + "" + j);
                 this.window.getContentPane().add(this.map[i][j]);
