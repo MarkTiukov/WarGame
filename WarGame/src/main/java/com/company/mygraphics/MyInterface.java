@@ -8,7 +8,10 @@ import com.company.fields.Field;
 import javax.swing.*;
 
 public class MyInterface implements Interfacable {
-    private static final int windowSize = 1000;
+    //TODO make scrollable
+    private static final int windowSizeY = 1000;
+    private static final int controlMenuWidth = 70;
+    private static final int windowSizeX = windowSizeY + controlMenuWidth;
 
     private final JFrame window = new JFrame("War Game");
 
@@ -16,8 +19,9 @@ public class MyInterface implements Interfacable {
 
     public MyInterface() {
         this.window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.window.setSize(windowSize, windowSize);
+        this.window.setSize(windowSizeX, windowSizeY);
         this.window.setLayout(null);
+        this.window.setLocationRelativeTo(null);
     }
 
     @Override
@@ -28,7 +32,7 @@ public class MyInterface implements Interfacable {
     @Override
     public void drawInitialMap(Field field) {
         int numberOfCells = field.getSize();
-        int cellSize = (windowSize - 2) / numberOfCells;
+        int cellSize = (windowSizeY - 2) / numberOfCells;
         this.map = new MyPanel[numberOfCells][numberOfCells];
         for (int i = 0; i < numberOfCells; ++i) {
             for (int j = 0; j < numberOfCells; ++j) {
