@@ -7,9 +7,16 @@ import java.awt.*;
 
 public class MyPanel extends JPanel {
 
+    //TODO add error picture (for some strange wrong cells
+
     private Pictures name;
 
     MyPanel() {
+    }
+
+    public void change(Pictures newPicture) {
+        this.name = newPicture;
+        this.repaint();
     }
 
     MyPanel(Pictures name) {
@@ -29,12 +36,20 @@ public class MyPanel extends JPanel {
             case EMPTY3:
                 g.drawImage(Images.empty3, 0, 0, this.getWidth(), this.getHeight(), this);
                 break;
+            case HumanFarm:
+                g.drawImage(Images.humanFarm, 0, 0, this.getWidth(), this.getHeight(), this);
+                break;
+            case AnimalFarm:
+                g.drawImage(Images.animalFarm, 0, 0, this.getWidth(), this.getHeight(), this);
+                break;
             case HumanBase:
-                g.drawImage(Images.human_base, 0, 0, this.getWidth(), this.getHeight(), this);
+                g.drawImage(Images.humanBase, 0, 0, this.getWidth(), this.getHeight(), this);
                 break;
             case AnimalBase:
-                g.drawImage(Images.animal_base, 0, 0, this.getWidth(), this.getHeight(), this);
+                g.drawImage(Images.animalBase, 0, 0, this.getWidth(), this.getHeight(), this);
                 break;
+            default:
+
         }
     }
 }

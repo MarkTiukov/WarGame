@@ -2,7 +2,7 @@ package com.company.cells;
 
 public abstract class FarmCell extends Cell {
 
-    public static final int FARM_COST = 10;
+    public static final int FARM_COST = 100;
 
     public FarmCell() {
         super();

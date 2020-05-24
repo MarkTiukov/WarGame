@@ -1,5 +1,7 @@
 package com.company.judges;
 
+import com.company.Main;
+import com.company.cells.FarmCell;
 import com.company.mygraphics.Interfacable;
 
 public class Judge2 implements Judgable {
@@ -28,18 +30,33 @@ public class Judge2 implements Judgable {
         }
     }
 
+    @Override
+    public FarmCell buyFarm() {
+        return Main.playableFractions[this.gameStatus.getNumber() - 1].buyFarm();
+    }
+
     public enum GameStatus {
-        PLAYER1 {
+        PLAYER1(1) {
             @Override
             public String toString() {
                 return "Player 1";
             }
         },
-        PLAYER2 {
+        PLAYER2(2) {
             @Override
             public String toString() {
                 return "Player 2";
             }
+        };
+
+        private final int number;
+
+        GameStatus(int number) {
+            this.number = number;
+        }
+
+        public int getNumber() {
+            return number;
         }
     }
 }

@@ -74,10 +74,12 @@ public class Main {
         myInterface.showWindow();
     }
 
-    public static void chooseNumber() {
+    public static int chooseNumber() {
         System.out.println("<PLease, choose number of players: " + "2" + ">");
-        playableFractions = new Fraction[scanner.nextInt()];
+        int number = scanner.nextInt();
+        playableFractions = new Fraction[number];
         scanner.nextLine();
+        return number;
     }
 
     public static void chooseFractions() {
@@ -114,11 +116,6 @@ public class Main {
             result = scanner.nextInt();
         }
         return result;
-    }
-
-    public static class Test {
-        int a = 5;
-        int b = 5;
     }
 
 }

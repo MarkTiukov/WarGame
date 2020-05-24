@@ -4,7 +4,7 @@ import com.company.factories.AbsFactory4Units;
 
 public abstract class BarrackCell extends Cell{
 
-    public static final int BARRACK_COST = 100;
+    public static final int BARRACK_COST = 200;
 
     protected AbsFactory4Units factory = null;
 
