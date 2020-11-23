@@ -7,6 +7,8 @@ import com.company.fractions.AnimalFraction;
 import com.company.fractions.Fraction;
 import com.company.fractions.FractionsId;
 import com.company.fractions.HumanFraction;
+import com.company.judges.Judgable;
+import com.company.judges.Judge2;
 import com.company.mygraphics.MyInterface;
 
 import java.util.ArrayList;
@@ -21,6 +23,7 @@ public class Main {
     public static Scanner scanner = new Scanner(System.in);
     public static ArrayList<String> availableFractons;
     public static Field field;
+    public static Judgable judge;
 
     public static void main(String[] args) {
         helloWords();
@@ -57,23 +60,26 @@ public class Main {
         chooseNumber();
         chooseFractions();
         FieldBuilder fieldBuilder;
+        MyInterface myInterface = new MyInterface();
         if (playableFractions.length == 2) {
             fieldBuilder = new FieldBuilderTwoPlayers(chooseSize(), playableFractions);
+            judge = new Judge2(myInterface);
         } else {
             System.out.println("<ERROR WITH NUMBER OF PLAYERS>");
             return;
         }
-        MyInterface myInterface = new MyInterface();
         field = fieldBuilder.getField();
         field.drawInConsole();
         myInterface.drawInitialMap(field);
         myInterface.showWindow();
     }
 
-    public static void chooseNumber() {
+    public static int chooseNumber() {
         System.out.println("<PLease, choose number of players: " + "2" + ">");
-        playableFractions = new Fraction[scanner.nextInt()];
+        int number = scanner.nextInt();
+        playableFractions = new Fraction[number];
         scanner.nextLine();
+        return number;
     }
 
     public static void chooseFractions() {

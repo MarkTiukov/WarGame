@@ -7,7 +7,9 @@ public enum Pictures {
     EMPTY2,
     EMPTY3,
     HumanBase,
-    AnimalBase;
+    AnimalBase,
+    HumanFarm,
+    AnimalFarm;
 
     public static Pictures getRandomEmpty() {
         Random random = new Random();
